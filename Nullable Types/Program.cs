@@ -23,7 +23,12 @@ class Program
 
 
 
-      /*  int? TicketOnSale = 0;
+        //Null Coalesing Operator-------------->
+
+
+
+      /*  // using without Null Coalesing Operator
+        int? TicketOnSale = 0;
         int AvailableTickers;
         if (TicketOnSale == null)
         {
@@ -39,7 +44,12 @@ class Program
 
 
 
-        int? TicketOnSale = 0;
+
+
+
+        // using Null Coalesing Operator
+
+        int ? TicketOnSale = 0;
 
         int AvaialableTickets = TicketOnSale ?? 0;
 
