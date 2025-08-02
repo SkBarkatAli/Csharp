@@ -9,7 +9,7 @@ class Program
 
         Console.WriteLine("Please enter your last name");
 
-        string lastname = Console.ReadLine();
+        string lastname = Console.ReadLine(); //mm
 
         //Console.WriteLine("Hello " + UserName);  // Concatenate name with hello word and print
         

@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 class Program
     {
@@ -21,6 +21,30 @@ class Program
 
 
 
-    }
-    }
+  /*  }
+    }*/
 
+/// <summary>
+/// Adds two integers.
+/// </summary>
+/// <param name="a">First number</param>
+/// <param name="b">Second number</param>
+/// <returns>Sum of a and b</returns>
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+
+
+
+            public int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+
+    }
+}
