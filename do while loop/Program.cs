@@ -48,7 +48,7 @@ class Program
     static void Main()
     {
         int TotalCoffeeCost = 0;
-        string UserDecision;
+        string UserDecision = "";
 
         do
         {
