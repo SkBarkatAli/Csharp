@@ -32,20 +32,20 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Program.EvenNumbers(30);
+        Program.EvenNumbers(30);   // for static method
 
-        Program P = new Program();
-        int Sum = P.Add(10, 20);
+        Program P = new Program();  // for instance method
+        int Sum = P.Add(10, 20);    
 
         Console.WriteLine("Sum = {0}",Sum);
     }
 
-    public int Add(int FN, int SN)
+    public int Add(int FN, int SN)   // Add method for sum 2 number.
     {
         return FN + SN;
     }
 
-    public static void EvenNumbers(int Target)  // Print all the even number
+    public static void EvenNumbers(int Target)  // Print all the even number.
     //  |      |    |
     //access modifier
     //         |    |
